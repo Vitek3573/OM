@@ -42,5 +42,19 @@ html{
     font: inherit;
   }
   .container{
-      max-width: 1170px;
+      max-width: 1190px;
+      padding: 0 10px;
+      margin: 0 auto;  
+    }
+  a{
+    text-decoration: none;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    min-height: 100vh;
+    color: #373A39;
+    font-style: normal;
   }
