@@ -59,3 +59,16 @@
 .header__icon{
     margin-bottom: 62px;
 }
+.about{
+    background-color: #F6F8FA;
+    padding: 150px 0 144px;
+}
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.about__text p{
+    max-width: 770px;
+    margin-bottom: 16px;
+    color: #373A39;
+}
