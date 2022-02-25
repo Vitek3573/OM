@@ -177,3 +177,65 @@
 .magic__text p{
     margin-bottom: 25px;
 }
+.portfolio{
+    padding: 140px 0 165px;
+}
+.portfolio__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.portfolio__content{
+    column-count: 4;
+    column-gap: 22px;
+}
+.portfolio__item{
+    margin-bottom: 22px;
+}
+.portfolio__item img{
+    width: 100%;
+}
+.portfolio__add{
+    display: block;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #242121;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 42px 15px 41px;
+    background-color: #F6F8FA;
+    margin-bottom: 130px;
+}
+.blockquote{
+    max-width: 650px;
+    margin: 0 auto 148px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+    color: #242121;
+}
+.blockquote__author{
+    display: block;
+    color: #9e9e9e;
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 51px;
+}
+.portfolio__video{
+    background-image: url('../images/portfolio__video-bg.jpg');
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 165px;
+}
