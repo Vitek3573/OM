@@ -307,7 +307,7 @@
 .slider-blog__item-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 52px; 
+    line-height: 52px;
     margin-bottom: 10px;
     max-width: 676px;
     color: #242121;
@@ -316,13 +316,13 @@
 .slider-blog__item-text {
     max-width: 585px;
 }
-.slick-dots{
+.slick-dots {
     display: flex;
 }
-.slick-dots li + li{
+.slick-dots li + li {
     margin-left: 13px;
 }
-.slick-dots button{
+.slick-dots button {
     background-color: #242121;
     opacity: 0.4;
     width: 6px;
@@ -332,49 +332,98 @@
     padding: 0;
     border: none;
 }
-.slick-dots .slick-active button{
+.slick-dots .slick-active button {
     height: 10px;
     width: 10px;
     opacity: 1;
     transform: translateY(-2px);
 }
 .slick-prev,
-.slick-next{
+.slick-next {
     border: none;
     background-color: transparent;
-    padding: 0; 
+    padding: 0;
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-150%);
 }
-.slick-prev{
+.slick-prev {
     left: -95px;
 }
-.slick-next{
+.slick-next {
     right: -95px;
 }
-.team{
+.team {
     padding: 120px 0 130px;
 }
-.title__team{
+.title__team {
     margin-bottom: 100px;
 }
-.team__items{
+.team__items {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.team__name{
+.team__name {
     padding: 35px 0 12px;
     font-weight: bold;
     line-height: 17px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: #333;
 }
-.team__position{
+.team__position {
     font-weight: 300;
     font-size: 12px;
     line-height: 16px;
+}
+.pricing {
+    background-color: #f6f8fa;
+    padding: 145px 0 160px;
+}
+.pracing__title {
+    margin-bottom: 91px;
+}
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+}
+ul.pricing__item {
+    background-color: #fff;
+    text-align: center;
+    padding: 24px 25px 50px;
+    width: 370px;
+}
+.pricing__item li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+.pricing__item .pricing__item-name {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.pricing__item .pricing__item-num {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 109px;
+    margin-bottom: 50px;
+}
+.pricing__item-num sup {
+    font-size: 40px;
+    line-height: 54px;
+}
+.pricing__item-link {
+    margin-top: 70px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.2px;
+    color: #242121;
 }
