@@ -349,10 +349,10 @@
     transform: translateY(-150%);
 }
 .slick-prev {
-    left: -95px;
+    left: -65px;
 }
 .slick-next {
-    right: -95px;
+    right: -60px;
 }
 .team {
     padding: 120px 0 130px;
@@ -487,3 +487,52 @@ ul.pricing__item {
     cursor: pointer;
     margin-top: 40px;
 }
+.footer {
+    background-color: #333333;
+}
+.footer img {
+    margin: 0 auto;
+    padding-top: 110px;
+}
+.footer__inner {
+    margin-top: 70px;
+}
+.footer__list {
+    display: flex;
+    justify-content: center;
+}
+.footer__list li + li {
+    margin-left: 32px;
+}
+.footer__list-link {
+    margin-bottom: 65px;
+}
+.footer__list-link a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 4px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer__text-1,
+.footer__text-2,
+.footer__text-3 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+}
+.footer__inner .footer-arrow{
+    padding-top: 55px;
+    margin-bottom: 60px;
+}
+.footer__bottom{
+    background-color: #2A2C2B;
+    text-align: center;
+    height: 100px;
+    padding-top: 43px;
+    color: #CCCCCC;
+}
+
