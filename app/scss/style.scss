@@ -35,6 +35,7 @@
     background-position: center center;
     background-size: cover;
     font-family: "Montserrat", sans-serif;
+    padding-top: 100px;
 }
 .header__content-inner {
     display: flex;
@@ -42,6 +43,14 @@
     align-items: center;
     justify-content: space-between;
     min-height: calc(100vh - 93px);
+}
+.header__top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
 }
 .header__title {
     font-size: 72px;
@@ -576,6 +585,9 @@ ul.pricing__item {
     .pricing,
     .connection{
         padding: 75px 0;
+    }
+    .header__top-inner{
+        padding-bottom: 5px;
     }
     .about__text p{
         max-width: 100%;
